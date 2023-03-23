@@ -12,13 +12,6 @@ library(dplyr)
 library(adaptivetau)
 
 #Data
-saveRDS(dataset.independent, "dataset.independent.rds")
-saveRDS(dataset.independent.d0, "dataset.independent.d0.rds")
-saveRDS(dataset.both, "dataset.both.rds")
-save(dataset.independent, dataset.independent.d0, dataset.both,averages.log,
-     m03par,
-     file="tb_repo_data.RData")
-
 load("~/tb_repo_data.RData")
 
 #plotting fits
